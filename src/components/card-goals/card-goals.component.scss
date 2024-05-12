@@ -1,0 +1,120 @@
+.card {
+    height: 270px;
+    width: 570px;
+    margin: -150px auto;
+    border: 1px solid #00000029;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    .ctn-card-text {
+        height: 77px;
+        display: flex;
+        justify-content: space-between;
+        font-family: Verdana;
+        color: #363636;
+        .card-title {
+            font-size: 16px;
+            margin-left: 40px;
+            display: flex;
+            flex-direction: column;
+            >h4 {
+                margin-bottom: 2px;
+            }
+            >h6 {
+                margin-top: 0;
+            }
+        }
+        .card-goals {
+            margin: 25px 40px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #00C83C;
+            text-decoration: underline;
+        }
+    }
+    .ctn-card-buttons {
+        height: 77px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 25px;
+        .ctn-date {
+            height: 77px;
+            width: 277px;
+            color: #363636; 
+            font-family:  verdana;
+            font-size: 14px;
+            .text {
+                width: 105px;
+                margin: 2px auto;
+            }
+            .button {
+                width: 135px;
+                margin: 5px auto;
+                background-color: #A5D7E1;
+                border-radius: 5px;
+                padding: 3px;
+                text-align: center;
+            }
+        }
+        .ctn-achievement {
+            height: 77px;
+            width: 277px;
+            color: #363636; 
+            font-family:  verdana;
+            font-size: 14px;
+            .text {
+                width: 75px;
+                margin: 2px auto;
+            }
+            .button {
+                width: 135px;
+                margin: 5px auto;
+                background-color: #FECD72;
+                border-radius: 5px;
+                padding: 3px;
+                text-align: center;
+            }
+        }
+        .ctn-account {
+            height: 77px;
+            width: 277px;
+            color: #363636; 
+            font-family:  verdana;
+            font-size: 14px;
+            .text {
+                width: 130px;
+                margin: 2px auto;
+            }
+            .button {
+                width: 135px;
+                margin: 5px auto;
+                background-color: #95DBB7;
+                border-radius: 5px;
+                padding: 3px;
+                text-align: center;
+            }
+        }
+    }
+    .ctn-progress {
+        height: 100px;
+        display: flex;
+        .ctn-text {
+            width: 456px;
+            height: 50px;
+            margin: auto 35px;
+            font-family: Verdana;
+            font-size: 12px;
+            font-weight: bold;
+            color: #00C83C;
+            text-decoration: underline;
+            >img {
+                margin-right: 5px;
+            }
+        }
+        .ctn-image {
+            >img {
+                width: 114px;
+                height: 116px;
+            }
+        }
+    }
+}
