@@ -1,0 +1,205 @@
+.body {
+    width: 1366px;
+    height: 768px;
+    margin: auto;
+    background-image: url("../../assets/iStock-480003814.png");
+    .banner {
+        height: 307px;
+        display: flex;
+        flex-direction: column;
+        background-color: #63AABC;
+        .ctn-start {
+            height: 80px;
+            .start {
+                display: flex;
+                justify-content: space-around;
+                width: 119px;
+                height: 22px;
+                position: relative;
+                left: 190px;
+                top: 34px;
+                >p {
+                    font-family: Verdana;
+                    font-weight: bold;
+                    font-size: 10px;
+                    color: #FFFFFF;
+                    letter-spacing: 0px;
+                    text-decoration: underline;
+                    margin: auto;
+                }
+            }
+        }
+        .ctn-title {
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            .title {
+                margin: 0 auto;
+                width: auto;
+                height: 30px;
+                color: #FFFFFF;
+                font-family:  verdana;
+                font-size: 20px;
+            }
+            .subtitle {
+                height: 30px;
+                width: auto;
+                margin: 0 auto;
+                color: #FFFFFF;
+                font-family:  verdana;
+                font-size: 14px;
+            }
+        }
+    }
+    .card {
+        height: 270px;
+        width: 570px;
+        margin: -150px auto;
+        border: 1px solid #00000029;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        .ctn-card-text {
+            height: 77px;
+            display: flex;
+            justify-content: space-between;
+            font-family: Verdana;
+            color: #363636;
+            .card-title {
+                font-size: 16px;
+                margin-left: 40px;
+                display: flex;
+                flex-direction: column;
+                >h4 {
+                    margin-bottom: 2px;
+                }
+                >h6 {
+                    margin-top: 0;
+                }
+            }
+            .card-goals {
+                margin: 25px 40px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #00C83C;
+                text-decoration: underline;
+            }
+        }
+        .ctn-card-buttons {
+            height: 77px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 25px;
+            .ctn-date {
+                height: 77px;
+                width: 277px;
+                color: #363636; 
+                font-family:  verdana;
+                font-size: 14px;
+                .text {
+                    width: 105px;
+                    margin: 2px auto;
+                }
+                .button {
+                    width: 135px;
+                    margin: 5px auto;
+                    background-color: #A5D7E1;
+                    border-radius: 5px;
+                    padding: 3px;
+                }
+            }
+            .ctn-achievement {
+                height: 77px;
+                width: 277px;
+                color: #363636; 
+                font-family:  verdana;
+                font-size: 14px;
+                .text {
+                    width: 75px;
+                    margin: 2px auto;
+                }
+                .button {
+                    width: 135px;
+                    margin: 5px auto;
+                    background-color: #FECD72;
+                    border-radius: 5px;
+                    padding: 3px;
+                }
+            }
+            .ctn-account {
+                height: 77px;
+                width: 277px;
+                color: #363636; 
+                font-family:  verdana;
+                font-size: 14px;
+                .text {
+                    width: 130px;
+                    margin: 2px auto;
+                }
+                .button {
+                    width: 135px;
+                    margin: 5px auto;
+                    background-color: #95DBB7;
+                    border-radius: 5px;
+                    padding: 3px;
+                }
+            }
+        }
+        .ctn-progress {
+            height: 100px;
+            display: flex;
+            .ctn-text {
+                width: 456px;
+                height: 50px;
+                margin: auto 35px;
+                font-family: Verdana;
+                font-size: 12px;
+                font-weight: bold;
+                color: #00C83C;
+                text-decoration: underline;
+                >img {
+                    margin-right: 5px;
+                }
+            }
+            .ctn-image {
+                >img {
+                    width: 114px;
+                    height: 116px;
+                }
+            }
+        }
+    }
+    .ctn-description {
+        height: 110px;
+        .description {
+            width: 700px;
+            margin: 180px auto;
+            display: flex;
+            flex-direction: column;
+            .title-des {
+                font-family:  verdana;
+                font-size: 22px;
+                color: #363636;
+                margin: auto;
+            }
+            .subtitle-des {
+                font-family:  verdana;
+                font-size: 14px;
+                color: #363636;
+                margin: 15px auto 0 auto;
+                .new-product {
+                    margin: 0 auto;
+                    width: 400px;
+                    >img {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    .body-footer {
+        height: 344px;
+        width: 1366px;
+        margin: auto;
+        background-color: #FECD72;
+    }
+}
