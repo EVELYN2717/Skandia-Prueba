@@ -3,8 +3,10 @@
     height: 768px;
     margin: auto;
     background-image: url("../../assets/iStock-480003814.png");
+    display: flex;
     .banner {
         height: 307px;
+        width: 1316px;
         display: flex;
         flex-direction: column;
         background: #4B79A1;

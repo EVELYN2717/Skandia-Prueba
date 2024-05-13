@@ -1,0 +1,32 @@
+<div class="ctn-navigation-menu">
+    <div class="navigation-menu">
+        <div class="ctn-logo-home" (click)="hiddenMenu(true)">
+            <div class="logo-home">
+                <img src="../../assets/home menu.svg" alt="">
+            </div>
+        </div>
+        @if (showMenu) {
+            <div class="ctn-options-menu">
+            @for (item of iconsMenu |slice:0; track $index) {
+                <div class="icon-option-menu" (click)="hiddenMenu(false)">
+                    <img src="../../assets/{{item}}" alt="">
+                </div>
+            }
+            </div>
+        }
+    </div>
+    @if (showMenu) {
+        <div class="menu">
+            <div class="ctn-start">
+                <label>Inicio</label>
+            </div>
+            <div class="ctn-name-option-menu">
+                @for (item of nameMenu |slice:0; track $index) {
+                    <div class="name-option-menu" (click)="hiddenMenu(false)">
+                        {{item}}
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>

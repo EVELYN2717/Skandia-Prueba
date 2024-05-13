@@ -1,0 +1,81 @@
+.ctn-navigation-menu {
+    top: 80px;
+    left: 0px;
+    width: 50px;
+    height: 688px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    .navigation-menu {
+        display: flex;
+        flex-direction: column;
+        .ctn-logo-home {
+            top: 80px;
+            left: 0px;
+            width: 50px;
+            height: 50px;
+            background: #00C83C 0% 0% no-repeat padding-box;
+            opacity: 1;
+            .logo-home {
+                margin: auto;
+                position: relative;
+                top: 17px;
+                width: 16px;
+                height: 16px;
+                opacity: 1;
+            }
+        }
+        .ctn-options-menu {
+            height: 250px;
+            width: 50px;
+            display: flex;
+            flex-direction: column;
+            .icon-option-menu {
+                width: 50px;
+                height: 50px;
+                >img {
+                    position: relative;
+                    top: 17px;
+                    left: 17px;
+                    width: 16px;
+                    height: 16px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .menu {
+        top: -300px;
+        left: 50px;
+        width: 181px;
+        height: 688px;
+        background: #E2E2E2 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: relative;
+        z-index: 1;
+        .ctn-start {
+            background-color: #00C83C;
+            height: 50px;
+            >label {
+                margin-left: 10px;
+                position: relative;
+                top: 17px;
+                font: normal normal medium 16px/21px Montserrat;
+                color: #FFFFFF;
+            }
+        }
+        .ctn-name-option-menu {
+            height: 50px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            .name-option-menu {
+                margin: auto;
+                margin-left: 10px;
+                height: 16px;
+                font: normal normal medium 16px/21px Montserrat;
+                color: #3F3F3F;
+                opacity: 1;
+            }
+        }
+    }
+}
