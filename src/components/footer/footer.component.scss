@@ -13,38 +13,36 @@
             display: flex;
             justify-content: space-between;
             height: 380px;
-            .info {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;                
-                width: 241px;
-                height: 171px;
+            .ctn-dates-company {
                 position: relative;
-                top: 57px;
-                left: 171px;
-                font: normal normal normal 14px/22px Verdana;
-                >img {
-                    width: 112px;
-                    height: 24px;
+                width: 599px;
+                text-align: left;
+                .general-information {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;                
+                    width: 241px;
+                    height: 171px;
                     position: relative;
-                    bottom: 24px;
-                }
-                >p {
+                    top: 110px;
+                    margin: auto;
                     font: normal normal normal 14px/22px Verdana;
-                }
-                .dates-company {
-                    position: relative;
-                    width: 105px;
-                    top: 58px;
-                    text-align: left;
-                    font: normal normal normal 14px/22px Verdana;
-                    letter-spacing: 0px;
                     color: #3F3F3F;
+                    letter-spacing: 0px;
+                    >img {
+                        width: 112px;
+                        height: 24px;
+                        position: relative;
+                        bottom: 24px;
+                    }
+                    >p {
+                        font: normal normal normal 14px/22px Verdana;
+                    }
                 }
             }
-            .terms-conditions {
+            .ctn-terms-conditions {
                 position: relative;
-                left: 187px;
+                width: 372px;
                 >p {
                     position: relative;
                     width: 395px;
@@ -57,9 +55,9 @@
                     color: #3F3F3F;
                 }
             }
-            .social-networks {
+            .ctn-social-networks {
                 width: 372px;
-                .images {
+                .logos {
                     display: flex;
                     justify-content: space-around;
                     position: relative;

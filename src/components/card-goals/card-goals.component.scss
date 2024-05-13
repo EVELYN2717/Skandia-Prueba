@@ -5,13 +5,13 @@
     border: 1px solid #00000029;
     border-radius: 8px;
     background-color: #FFFFFF;
-    .ctn-card-text {
+    .ctn-description-goals {
         height: 77px;
         display: flex;
         justify-content: space-between;
         font-family: Verdana;
         color: #363636;
-        .card-title {
+        .description-goals {
             font-size: 16px;
             margin-left: 40px;
             display: flex;
@@ -23,7 +23,7 @@
                 margin-top: 0;
             }
         }
-        .card-goals {
+        .review-goals {
             margin: 25px 40px;
             font-size: 14px;
             font-weight: bold;
@@ -31,7 +31,7 @@
             text-decoration: underline;
         }
     }
-    .ctn-card-buttons {
+    .ctn-values-goals {
         height: 77px;
         display: flex;
         justify-content: space-between;
@@ -46,7 +46,7 @@
                 width: 105px;
                 margin: 2px auto;
             }
-            .button {
+            .value {
                 width: 135px;
                 margin: 5px auto;
                 background-color: #A5D7E1;
@@ -65,7 +65,7 @@
                 width: 75px;
                 margin: 2px auto;
             }
-            .button {
+            .value {
                 width: 135px;
                 margin: 5px auto;
                 background-color: #FECD72;
@@ -84,7 +84,7 @@
                 width: 130px;
                 margin: 2px auto;
             }
-            .button {
+            .value {
                 width: 135px;
                 margin: 5px auto;
                 background-color: #95DBB7;
@@ -94,10 +94,10 @@
             }
         }
     }
-    .ctn-progress {
+    .ctn-associate-product {
         height: 100px;
         display: flex;
-        .ctn-text {
+        .ctn-label {
             width: 456px;
             height: 50px;
             margin: auto 35px;
