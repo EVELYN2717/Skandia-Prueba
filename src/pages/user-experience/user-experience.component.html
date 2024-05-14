@@ -1,46 +1,48 @@
 <app-header></app-header>
 <div class="body">
-    <div class="ctn-menu">
-        <app-navigation-menu></app-navigation-menu>
-    </div>
-    <div class="ctn-body">
-        <div class="banner">
-            <div class="banner-background">
-                <div class="ctn-start">
-                    <div class="go-to-start">
-                        <img src="../../assets/home.svg" alt="">
-                        <p>Ir al inicio</p>
+    <div class="ctn-body-banner">
+        <div class="ctn-menu">
+            <app-navigation-menu></app-navigation-menu>
+        </div>
+        <div class="ctn-banner">
+            <div class="banner">
+                <div class="banner-background">
+                    <div class="ctn-start">
+                        <div class="go-to-start">
+                            <img src="../../assets/home.svg" alt="">
+                            <p>Ir al inicio</p>
+                        </div>
                     </div>
-                </div>
-                <div class="ctn-title">
-                    <div class="title"> <strong>¡Tu objetivo ha sido agregado exitosamente! </strong> </div>
-                    <div class="subtitle"> ¡Te hemos enviado un correo con la notificación! </div>
+                    <div class="ctn-title">
+                        <div class="title"> <strong>¡Tu objetivo ha sido agregado exitosamente! </strong> </div>
+                        <div class="subtitle"> ¡Te hemos enviado un correo con la notificación! </div>
+                    </div>
+                    <app-card-goals></app-card-goals>
                 </div>
             </div>
-        </div>
-        <app-card-goals></app-card-goals>
-        <div class="ctn-message-goals">
-            <div class="message-goals">
-                <div class="message-achieve-goal">
-                    <strong>¡Vamos por esos <font color="#FE9200">$6.000.000 </font> para 
-                        <font color="#FE9200">Conocer mi sobrino </font> !
-                    </strong>
-                </div>
-                <div class="acquire-new-product">
-                    ¡A través de tus productos y nuestros rendimientos podremos lograrlo! <br>
-                    <div class="text-new-product">
-                        <strong>Asocia tus productos o adquiere uno nuevo. </strong>
-                        <img src="../../assets/Group 12953.svg" alt="">
+            <div class="ctn-message-goals">
+                <div class="message-goals">
+                    <div class="message-achieve-goal">
+                        <strong>¡Vamos por esos <font color="#FE9200">$6.000.000 </font> para 
+                            <font color="#FE9200">Conocer mi sobrino </font> !
+                        </strong>
+                    </div>
+                    <div class="acquire-new-product">
+                        ¡A través de tus productos y nuestros rendimientos podremos lograrlo! <br>
+                        <div class="text-new-product">
+                            <strong>Asocia tus productos o adquiere uno nuevo. </strong>
+                            <img src="../../assets/Group 12953.svg" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="ctn-associate-goals">
-            <div class="ctn-cards-products"></div>
-            <div class="ctn-button">
-                <button type="button">ASOCIAR A OBJETIVO</button>
+                <app-cards-products-balance></app-cards-products-balance>
             </div>
         </div>
     </div>
+    <div class="ctn-associate-goals">
+        <div class="ctn-button">
+            <button type="button">ASOCIAR A OBJETIVO</button>
+        </div>
+    </div>   
 </div>
 <app-footer></app-footer>

@@ -1,40 +1,46 @@
-<div class="ctn-cards-products">
-    <div class="cards-products">
-        <div class="ctn-checkbox">
-            <div class="checkbox"></div>
-        </div>
-        <div class="ctn-name-product">
-            <div class="name-product">
-                <strong>MFUND Efectivo</strong><br>
-                #789654123
-            </div>
-        </div>
-        <div class="ctn-balance-product">
-            <div class="balance-product">
-                <strong>Ya cuentas con:</strong><br>
-                <font color="#00C83C">$4000000</font>
-            </div>
-        </div>
-        <div class="ctn-detail-product">
-            <div class="icon-detail">
-                <img src="../../assets/Happy Card.svg" alt="">
-            </div>
-            <div class="detail-product">
-                <p>
-                    ¡Cuentas con 
-                    <font color="#FE9200">$2.120.000</font>
-                    para tu objetivo!<br>
-                    Te recomendamos aportar 
-                    <strong>$388.000 mensuales</strong><br>
-                    para lograrlo en 
-                    <strong>diciembre del 2022.</strong>
-                </p>
-            </div>
-        </div>
+<div class="ctn-cards-products" >
+    <div class="ctnControlBtn">
+        <button class="controlButton {{statusLeftButton}}" (click)="leftCards()"></button>
     </div>
-    <div class="cards-products"></div>
-    <div class="cards-products"></div>
-    <div class="cards-products">
+    
+    @for (item of listCard; track $index) {
+            <div class="cards-products" id="{{$index}}-card">
+                <div class="ctn-checkbox">
+                    <div class="checkbox"></div>
+                </div>
+                <div class="ctn-name-product">
+                    <div class="name-product">
+                        <strong>{{item.nameProduct}} Efectivo</strong><br>
+                        # {{item.numberProduct}}
+                    </div>
+                </div>
+                <div class="ctn-balance-product">
+                    <div class="balance-product">
+                        <strong>Ya cuentas con:</strong><br>
+                        <font color="#00C83C">{{item.balanceProduct}}</font>
+                    </div>
+                </div>
+                <div class="ctn-detail-product">
+                    <div class="icon-detail">
+                        <img src="../../assets/Happy Card.svg" alt="">
+                    </div>
+                    <div class="detail-product">
+                        <p>
+                            {{item.detaildProduct}}
+    <!--                         ¡Cuentas con 
+                            <font color="#FE9200">$2.120.000</font>
+                            para tu objetivo!<br>
+                            Te recomendamos aportar 
+                            <strong>$388.000 mensuales</strong><br>
+                            para lograrlo en 
+                            <strong>diciembre del 2022.</strong> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+    }
+    <div class="cards-products" id="4-card">
         <div class="ctn-recommended-product">
             <div class="ctn-icon-medal">
                 <img src="../../assets/Icon awesome-medal.svg" alt="">
@@ -54,4 +60,8 @@
             <button type="button"><strong>EXPLORA AHORA</strong></button>
         </div>
     </div>
+    <div class="ctnControlBtn">
+        <button class="controlButton {{statusRightButton}}" (click)="rightCards()"></button>
+    </div>
+    
 </div>

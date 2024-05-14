@@ -2,8 +2,26 @@
     width: 1316px;
     height: 390px;
     margin-top: -100px;
-    margin-left: 100px;
+    margin-left: 30px;
     display: flex;
+    z-index: 0;
+    .ctnControlBtn {
+        display: flex;
+        align-items: center;
+        .controlButton {
+            border-radius: 100%;
+            width: 40px;
+            height: 40px;
+            border: none;
+            z-index: 1;
+        }
+        .controlButton.used {
+            background-color: #00C83C;
+        }
+        .controlButton.unused {
+            background-color: silver;
+        }
+    }
     .cards-products {
         width: 352px;
         height: 401px;

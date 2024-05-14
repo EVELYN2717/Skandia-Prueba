@@ -1,118 +1,130 @@
 .body {
     width: 1366px;
-    height: 768px;
+    height: 1116px;
     margin: auto;
-    background-image: url("../../assets/iStock-480003814.png");
     display: flex;
-    .banner {
-        height: 307px;
-        width: 1316px;
+    flex-direction: column;
+    .ctn-body-banner {
+        height: 688px;
+        width: 1366px;
         display: flex;
-        flex-direction: column;
-        background: #4B79A1;
-        background: -webkit-linear-gradient(to top, #283E51, #0A2342);
-        background: linear-gradient(to top, #283E51, #0A2342);
-        background: -olinear-gradient(to top, #283E51, #0A2342); 
-        .banner-background{
-            top:0;
-            left:0;
-            right:0;
-            bottom:0;
-            width:100%;
-            height:100%;
-            display:block;
-            background:url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-            z-index:0;
-            .ctn-start {
-                height: 80px;
-                .go-to-start {
-                    display: flex;
-                    width: 119px;
-                    height: 22px;
-                    position: relative;
-                    left: 190px;
-                    top: 34px;
-                    >img {
-                        width: 15px;
-                        height: 15px;
+        box-shadow: 0px 0px 6px #00000029;
+        .ctn-banner {
+            display: flex;
+            flex-direction: column;
+            background: url("../../assets/iStock-480003814.png");
+            .banner {
+                position: relative;
+                top: 0;
+                height: 260px;
+                width: 1316px;
+                display: flex;
+                flex-direction: column;
+                background: #4B79A1;
+                background: -webkit-linear-gradient(to top, #283E51, #0A2342);
+                background: linear-gradient(to top, #283E51, #0A2342);
+                background: -olinear-gradient(to top, #283E51, #0A2342); 
+                .banner-background{
+                    top:0;
+                    left:50px;
+                    right:0;
+                    bottom:0;
+                    width:100%;
+                    height:100%;
+                    display:block;
+                    background:url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+                    z-index:0;
+                    .ctn-start {
+                        height: 80px;
+                        .go-to-start {
+                            display: flex;
+                            width: 119px;
+                            height: 22px;
+                            position: relative;
+                            left: 190px;
+                            top: 34px;
+                            >img {
+                                width: 15px;
+                                height: 15px;
+                            }
+                            >p {
+                                font-family: Verdana;
+                                font-weight: bold;
+                                font-size: 10px;
+                                color: #FFFFFF;
+                                letter-spacing: 0px;
+                                text-decoration: underline;
+                                margin: 0 0 0 13px;
+                            }
+                        }
                     }
-                    >p {
-                        font-family: Verdana;
-                        font-weight: bold;
-                        font-size: 10px;
+                }
+                .ctn-title {
+                    height: 80px;
+                    display: flex;
+                    flex-direction: column;
+                    .title {
+                        margin: 0 auto;
+                        width: auto;
+                        height: 30px;
                         color: #FFFFFF;
-                        letter-spacing: 0px;
-                        text-decoration: underline;
-                        margin: 0 0 0 13px;
+                        font-family:  verdana;
+                        font-size: 20px;
+                    }
+                    .subtitle {
+                        height: 30px;
+                        width: auto;
+                        margin: 0 auto;
+                        color: #FFFFFF;
+                        font-family:  verdana;
+                        font-size: 14px;
                     }
                 }
             }
-        }
-        .ctn-title {
-            height: 80px;
-            display: flex;
-            flex-direction: column;
-            .title {
-                margin: 0 auto;
-                width: auto;
-                height: 30px;
-                color: #FFFFFF;
-                font-family:  verdana;
-                font-size: 20px;
-            }
-            .subtitle {
-                height: 30px;
-                width: auto;
-                margin: 0 auto;
-                color: #FFFFFF;
-                font-family:  verdana;
-                font-size: 14px;
-            }
-        }
-    }
-    .ctn-message-goals {
-        height: 110px;
-        .message-goals {
-            width: 700px;
-            margin: 180px auto;
-            display: flex;
-            flex-direction: column;
-            .message-achieve-goal {
-                font-family:  verdana;
-                font-size: 22px;
-                color: #363636;
-                margin: auto;
-            }
-            .acquire-new-product {
-                font-family:  verdana;
-                font-size: 14px;
-                color: #363636;
-                margin: 15px auto 0 auto;
-                .text-new-product {
+            .ctn-message-goals {
+                height: 428px;
+                width: 1316PX;
+                .message-goals {
+                    width: 700px;
+                    margin: 160px auto;
                     display: flex;
-                    align-items: center;
-                    margin:4px auto 0 auto;
-                    width: 400px;
-                    >img {
-                        margin-left: 10px;
+                    flex-direction: column;
+                    .message-achieve-goal {
+                        font-family:  verdana;
+                        font-size: 22px;
+                        color: #363636;
+                        margin: auto;
+                    }
+                    .acquire-new-product {
+                        font-family:  verdana;
+                        font-size: 14px;
+                        color: #363636;
+                        margin: 15px auto 0 auto;
+                        .text-new-product {
+                            display: flex;
+                            align-items: center;
+                            margin:4px auto 0 auto;
+                            width: 400px;
+                            >img {
+                                margin-left: 10px;
+                            }
+                        }
                     }
                 }
             }
         }
     }
     .ctn-associate-goals {
-        height: 384px;
+        height: 428px;
         width: 1366px;
-        display: flex;
-        flex-direction: column;
-        .ctn-cards-products {
-           height: 274px; 
-        }
+        border-left: 2px solid #E2E2E2;
+        border-right: 2px solid #E2E2E2;   
         .ctn-button {
-            height: 110px;
-            margin:auto;
+            width: 260px;
+            height: 58px;
+            margin: 331px auto;
             >button {
-                margin: 30px auto;
+                margin: auto;
                 width: 260px;
                 height: 50px;
                 background-color: #E2E2E2;
