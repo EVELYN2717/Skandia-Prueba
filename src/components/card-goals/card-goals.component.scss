@@ -1,7 +1,7 @@
 .card {
-    height: 270px;
+    height: 240px;
     width: 570px;
-    margin: -150px auto;
+    margin: -15px auto;
     border: 1px solid #00000029;
     border-radius: 8px;
     background-color: #FFFFFF;
@@ -32,12 +32,12 @@
         }
     }
     .ctn-values-goals {
-        height: 77px;
+        height: 60px;
         display: flex;
         justify-content: space-between;
         margin: 0 25px;
+        border-color: #FECD72;
         .ctn-date {
-            height: 77px;
             width: 277px;
             color: #363636; 
             font-family:  verdana;
@@ -99,7 +99,7 @@
         display: flex;
         .ctn-label {
             width: 456px;
-            height: 50px;
+            height: 20px;
             margin: auto 35px;
             font-family: Verdana;
             font-size: 12px;
@@ -113,7 +113,7 @@
         .ctn-image {
             >img {
                 width: 114px;
-                height: 116px;
+                height: 103px;
             }
         }
     }
